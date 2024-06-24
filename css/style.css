@@ -381,6 +381,10 @@ section.books h2 {
     margin: 0;
 }
 
+.books_services {
+    margin-top: 30px;
+}
+
 /* slider styling end */
 /* adventure styling start */
 section.adventure_banner {
@@ -832,7 +836,27 @@ a:focus {
     color: var(--main-color);
     font-size: 15px;
     border-top: 1px solid #425d5f29;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy-text p {
+    font-size: 16px;
+}
+
+.policy ul li a {
+    color: var(--main-color);
+    padding: 0px 0px 0 40px;
+    display: inline-block;
+    line-height: 29px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.policy ul {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .copyright a {
