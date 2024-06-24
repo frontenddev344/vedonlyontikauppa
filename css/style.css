@@ -370,6 +370,17 @@ section.books {
     object-fit: cover;
 }
 
+section.books p {
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto 10px;
+}
+
+section.books h2 {
+    padding: 0;
+    margin: 0;
+}
+
 /* slider styling end */
 /* adventure styling start */
 section.adventure_banner {
