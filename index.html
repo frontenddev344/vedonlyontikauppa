@@ -76,11 +76,11 @@
 
 
 
-    <section class="caffes">
+    <section class="books">
         <div class="container">
             <h2>Services</h2>
 
-            <div class="caffes_services row">
+            <div class="books_services row">
                 <div class="columns large-3">
                     <div class="srv-card">
                         <div class="srv-img">
@@ -223,10 +223,13 @@
 
     <script>
         $(document).ready(function () {
-            $(".caffes_services").slick({
+            $(".books_services").slick({
                 slidesToShow: 4,
                 slidesToScroll: 1,
                 arrows: true,
+                autoplay:true,
+                autospeed:1000,
+                dots:true,
                 responsive: [
                     {
                         breakpoint: 767,

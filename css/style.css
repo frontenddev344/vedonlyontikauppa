@@ -62,17 +62,14 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-    font-family: "Roboto", sans-serif;
-}
+h6 {}
 
 h2 {
-    font-family: "Roboto", sans-serif;
     text-align: center;
     color: var(--secondary-color);
-    font-size: 35px;
+    font-size: 40px;
     padding-bottom: 50px;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 /* navbar styling  */
@@ -335,10 +332,36 @@ section.home_banner {
 
 .srv-card {
     text-align: center;
+    margin-right: 20px;
 }
 
-section.caffes {
+.slider_btn a {
+    background: var(--main-color);
+    padding: 10px 20px;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid var(--main-color);
+}
+
+.slider_btn a:hover {
+    background-color: transparent;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+.slider_btn {
+    margin-top: 10px;
+}
+
+section.books {
     padding: 60px 0;
+}
+
+.slick-dots li button:before {
+    font-size: 11px;
+    color: var(--secondary-color);
+    top: 17px;
 }
 
 .srv-img img {
