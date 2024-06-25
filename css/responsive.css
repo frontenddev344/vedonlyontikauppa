@@ -346,4 +346,10 @@
     .together {
         width: 100%;
     }
+    .policy ul {
+        justify-content: center;
+    }
+    .policy ul li a{
+        padding-left: 0;
+    }
 }
