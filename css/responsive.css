@@ -104,6 +104,16 @@
     }
 
 }
+@media (max-width:1024px){
+    .together {
+        width: 370px;
+    }
+
+}
+
+
+
+
 
 @media (max-width: 991px) {
     .row.upcoming_aside h3 {
@@ -195,6 +205,9 @@
     .single_footer p {
         margin-top: 0;
     }
+    .banner-img {
+        margin-top: 60px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -239,6 +252,12 @@
     }
     .single_footer {
         margin-bottom: 20px;
+    }
+        .thessa-inner{
+        display: block;
+    }
+    .together {
+        margin: 20px 0;
     }
 }
 
@@ -320,5 +339,11 @@
     }
     .hotel_img img {
         height: 250px;
+    }
+    .copyright{
+        display: block;
+    }
+    .together {
+        width: 100%;
     }
 }

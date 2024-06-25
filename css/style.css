@@ -356,6 +356,8 @@ section.home_banner {
 
 section.books {
     padding: 60px 0;
+    overflow-x: hidden!important;
+    width: 100%!important;
 }
 
 .slick-dots li button:before {
@@ -917,5 +919,9 @@ a.btn.btn-primary.setting-cookies:hover {
     text-decoration-color: var(--primary-color);
 }
 
+body{
+overflow-x: hidden!important;
+width: 100%!important;
+}
 /* 
 /cookie end/ */
