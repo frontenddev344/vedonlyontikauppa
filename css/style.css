@@ -209,6 +209,11 @@ a.button_main {
     border: 1px solid var(--main-color);
     color: #fff;
     font-weight: 500;
+    transition: all 0.4s;
+}
+a.button_main:hover {
+    background: transparent;
+    color: #eb9c20;
 }
 
 /* ///// */
@@ -525,13 +530,13 @@ button.toggle_btn {
 .privacy__section {
     position: relative;
     height: 400px;
-    background-image: url(../image/privacybanner.jpg);
+    background-image: url(../image/adventure.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     object-fit: cover;
     margin-top: 0;
-    isolation: isolate;
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -570,13 +575,13 @@ section.privacy-policy h3 {
 .terms__section {
     position: relative;
     height: 400px;
-    background-image: url(../image/termsbanner.jpg);
+    background-image: url(../image/adventure.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     object-fit: cover;
     margin-top: 0;
-    isolation: isolate;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -988,6 +993,9 @@ overflow-x: hidden!important;
 width: 100%!important;
 }
 
+h1.common_p_t {
+    color: #eb9c20!important;
+}
 
 
 
