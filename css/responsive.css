@@ -262,10 +262,16 @@
     }
         .thessa-inner{
         display: block;
+        text-align: center;
     }
     .together {
-        margin: 20px 0;
+        text-align: center;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
+         
 }
 
 @media (max-width:600px) {
@@ -334,13 +340,7 @@
         text-align: center;
     }
 
-    .hotel_btn {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-        justify-content: center;
-    }
+   
     .casino_heading.overlay span {
         font-size: 45px;
     }
