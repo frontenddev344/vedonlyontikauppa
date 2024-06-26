@@ -208,6 +208,13 @@
     .banner-img {
         margin-top: 60px;
     }
+    section.home_banner .container .row {
+        flex-direction: column-reverse;
+    }
+    .banner-text {
+        text-align: center;
+        margin-top: 60px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -371,6 +378,9 @@
     }
     .copy-text {
         text-align: center;
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
     }
     #cookie-popup {
         max-width: 95%;
