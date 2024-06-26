@@ -243,6 +243,21 @@
 
         </div>
     </div>
+
+    <div id="cookie-popup">
+
+        <p>
+            Evästeen </p>
+        <p>“Käytämme evästeitä parantaaksemme käyttökokemustasi sivustollamme,
+            analysoidaksemme sivuston liikennettä ja mukauttaaksemme sisältöä. Jatkamalla
+            sivustomme käyttöä hyväksyt evästeiden käytön.”
+        </p>
+        
+        <button class="cookie-popup__button">
+            Hyväksyä</button>
+      </div>
+    
+
     <!-- footer section end -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
@@ -295,7 +310,11 @@
             });
         });
     </script>
-
+<script>
+    $("#cookie-popup button").click(function() {
+    $("#cookie-popup").fadeOut();
+  });
+</script>
 
 </body>
 
