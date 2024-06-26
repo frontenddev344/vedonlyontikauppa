@@ -261,6 +261,15 @@
     }
 }
 
+@media (max-width:600px) {
+    .srv-img img {
+        object-fit:contain;
+    }
+    
+}
+
+
+
 @media (max-width: 575px) {
     body.toggle .navlink {
         width: 100%;
