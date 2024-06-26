@@ -352,4 +352,15 @@
     .policy ul li a{
         padding-left: 0;
     }
+    .single_footer {
+        text-align: center;
+    }
+    .social_profile {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    .copy-text {
+        text-align: center;
+    }
 }

@@ -662,6 +662,18 @@ a:focus {
     background-position: top;
     background-size: cover;
     padding: 40px 0;
+    position: relative;
+    z-index: 0;
+}
+.footer::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: #fad5e3de;
+    z-index: -1;
+    top: 0;
+    left: 0;
 }
 
 
